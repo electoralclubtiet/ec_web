@@ -1,9 +1,9 @@
 name: GitHub Pages
 
 on:
-  push:
-    branches:
-      - "main"
+  workflow_dispatch:
+  
+    
 
 jobs:
   deploy:
@@ -37,11 +37,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - run: npm install -g postcss-cli autoprefixer
-      - run: npm ci
+      - run: cd ec_website &&  npm ci
 
       - uses: actions/cache@v3
         with:
-          path: /tmp/hugo_cache
+          path: /ec_website/tmp/hugo_cache
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
