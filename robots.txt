@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://electoralclubtiet.github.io/ec_web/sitemap.xml
+Sitemap: https://electoralclub.vercel.app/sitemap.xml
