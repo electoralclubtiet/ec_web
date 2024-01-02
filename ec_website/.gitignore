@@ -142,3 +142,6 @@ exampleSite/public/
 exampleSite/resources/_gen/
 TODO
 .hugo_build.lock
+
+node_modules
+.env

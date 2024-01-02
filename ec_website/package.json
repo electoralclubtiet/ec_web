@@ -20,10 +20,12 @@
   },
   "dependencies": {
     "@alpinejs/intersect": "^3.13.3",
-    "alpinejs": "^3.13.3"
+    "alpinejs": "^3.13.3",
+    "tinacms": "^1.5.28"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
+    "@tinacms/cli": "^1.5.39",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",
     "postcss-cli": "^11.0.0",
@@ -40,6 +42,7 @@
     "url": "https://github.com/canstand/compost.git"
   },
   "scripts": {
+    "tina":"npx tinacms dev -c 'hugo server -s ./mainSite'",
     "prettier": "npx prettier --write ."
   },
   "version": "0.7.0"
