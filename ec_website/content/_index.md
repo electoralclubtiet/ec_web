@@ -47,14 +47,14 @@
 
 .video-content {
   z-index: 2;
-  margin-top:-35%;
+  margin-top:-30%;
 }
 </style>
 <div class="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
         <video class="min-w-full min-h-full absolute object-cover" src="./vote.mp4" type="video/mp4" autoplay muted loop></video>
 </div>
 
-<section class="relative flex flex-col items-center justify-center text-center py-0 px-3" style="height:83vh">
+<section class="relative flex flex-col items-center justify-center text-center py-0 px-3" style="height:90vh">
     <div class="video-content space-y-2  flex flex-col items-center justify-center text-center " >
  <img src="./logo-512.png" style="height:150px">
 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none " style="color:white!important">
