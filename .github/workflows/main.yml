@@ -49,7 +49,7 @@ jobs:
       - name: Build
         # env:
           # HUGO_GOOGLEANALYTICS: ${{ secrets.GOOGLEANALYTICS }}
-        run: cd ec_website && hugo --gc -v --minify --baseURL https://electoralclubtiet.github.io/ec_web/
+        run: cd ec_website && hugo --gc -v --minify --baseURL https://electoralclub.vercel.app/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
