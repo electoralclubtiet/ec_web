@@ -1,9 +1,9 @@
 name: GitHub Pages
 
 on:
-  workflow_dispatch:
-  
-    
+  push:
+    paths: 
+      - 'trigger_deploy.txt**'
 
 jobs:
   deploy:
